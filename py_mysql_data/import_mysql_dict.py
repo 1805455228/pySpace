@@ -15,10 +15,10 @@ def generate(database_name):
 
     # 使用前修改配置
     conn = mysql.connector.connect(
-        host='127.0.0.1',
+        host='172.16.16.8',
         port='3306',
         user='root',
-        password='123456',
+        password='root@yingxinnet',
         use_pure=True
     )
 
